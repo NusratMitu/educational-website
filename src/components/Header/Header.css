@@ -1,0 +1,14 @@
+.header {
+    line-height: 70px;
+    border-bottom: steelblue 3px solid;
+    margin: 20px 30px;
+  }
+  
+  .nav-item {
+    color: steelblue;
+    text-decoration: none;
+    padding: 30px 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  

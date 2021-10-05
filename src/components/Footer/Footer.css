@@ -1,0 +1,9 @@
+.footer-container {
+    border-top: steelblue 3px solid;
+    margin: 70px 30px 20px;
+}
+.copyright-text {
+    text-align: center;
+    padding: 30px 0px ;
+    color: grey;
+}

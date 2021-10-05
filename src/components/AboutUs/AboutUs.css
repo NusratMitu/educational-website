@@ -1,0 +1,25 @@
+.about-us {
+    background-color: steelblue;
+    color: white;
+    letter-spacing: 1px;
+    padding: 50px 200px;
+    margin: 50px 0px;
+}
+.about-us h1 {
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-bottom: 20px;   
+}
+.about-container img {
+    width: 50%;
+}
+Form{
+    width: 600px;
+    display: inline-block;
+    margin: 30px 0;
+}
+#btn-style {
+    background-color: steelblue;
+    color: white;
+  }

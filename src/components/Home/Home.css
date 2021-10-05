@@ -1,0 +1,29 @@
+.home-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.home-banner h1 {
+    font-size: 80px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.title-name {
+  font-size: 80px;
+  color: steelblue;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.home-banner img {
+    width: 50%;
+    height: 500px;
+    padding-left: 50px;
+}
+
+.program-title {
+    text-align: left;
+    padding: 20px;
+    letter-spacing: 2px;
+}
