@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route,PrivateRoute, Link } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Programs from './components/Programs/Programs';
 import StudentSuccess from './components/StudentSuccess/StudentSuccess';
@@ -31,7 +31,7 @@ function App() {
         <Route path="/aboutUs">
           <AboutUs></AboutUs>
         </Route>
-        <Route>
+        <Route path="*">
           <NotFound></NotFound>
         </Route>
       </Switch>

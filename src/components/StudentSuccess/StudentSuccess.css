@@ -1,0 +1,14 @@
+.feedback img{
+ height: 400px;
+}
+.feedback p, h3 {
+    color: steelblue;
+    letter-spacing: 3px;
+}
+.faq h2, .feedback h2 {
+    margin: 30px;
+}
+.faq {
+    width: 70%;
+    display: inline-block;
+}

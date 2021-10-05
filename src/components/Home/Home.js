@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { Row } from 'react-bootstrap';
+import { Col, Row, Carousel } from 'react-bootstrap';
 import Courses from '../Courses/Courses';
 import './Home.css';
 
@@ -20,13 +20,36 @@ const Home = () => {
         </div>
         <img src="elearning.jpg" alt="images" srcset="" />
       </div>
-      <h2 className="program-title">Top Programs</h2>
+      <h2 className="title">Top Programs</h2>
       <Row xs={2} md={3} className="g-3 w-100">
         {
           courses.slice(0,3).map(course =><Courses key={course.id} course = {course}></Courses>
           )
         }
       </Row>
+     <div>
+     <h2 className="title">Topics recommended for you</h2>
+    <Row xs={2} md={4} className="g-2 w-100 row-style">
+     <Col className="col-style">Web Development</Col>
+     <Col className="col-style">Front End Web Development</Col>
+     <Col className="col-style"> React</Col>
+     <Col className="col-style">Javascript</Col>
+     <Col className="col-style">App Development</Col>
+     <Col className="col-style">UI/UX Design</Col>
+     <Col className="col-style">Data Analysis</Col>
+     <Col className="col-style">Redux Framework</Col>
+    </Row>
+     </div>
+       
+    <div className= " review-container">
+    <div className= " fs-4 my-3 review">
+    <p>“I used to fear programming. But now, I am in love with programming because of edemy.”
+    </p>
+    <h3 className="">— Sadek</h3>
+    </div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe_cDEs59IJRqgpYZ2nHKCkQH5bu2FVXBaog&usqp=CAU" alt="images" srcset="" />
+    </div>
+      
     </div>
   );
 };

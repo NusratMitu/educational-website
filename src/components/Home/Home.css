@@ -21,9 +21,38 @@
     height: 500px;
     padding-left: 50px;
 }
-
-.program-title {
+.title {
     text-align: left;
     padding: 20px;
     letter-spacing: 2px;
 }
+.row-style {
+    padding: 10px 15px;
+    margin-bottom: 50px;
+}
+.col-style {
+    border: 1px solid gray;
+    border-radius: 5px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.review-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(238, 240, 241, 0.795);
+    /* padding: 50px 500px 20px 100px; */
+    height: 300px;
+}
+.review-container img {
+
+}
+.review {
+    /* background-color: rgba(238, 240, 241, 0.795); */
+    padding: 20px 50px 20px 80px;
+    text-align: left;
+    /* height: 300px; */
+    
+}
+
