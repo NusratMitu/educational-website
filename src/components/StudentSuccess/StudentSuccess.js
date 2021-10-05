@@ -61,7 +61,7 @@ const StudentSuccess = () => {
     <div className="faq">
         <h2>Frequently Asked Questions</h2>
         <Accordion defaultActiveKey="0" flush>
-  <Accordion.Item eventKey="0">
+  <Accordion.Item eventKey="1">
     <Accordion.Header>How can I contact with them?</Accordion.Header>
     <Accordion.Body>
     Connect them on linkdin.
