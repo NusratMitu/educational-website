@@ -31,7 +31,7 @@ function App() {
         <Route path="/aboutUs">
           <AboutUs></AboutUs>
         </Route>
-        <Route path="*">
+        <Route>
           <NotFound></NotFound>
         </Route>
       </Switch>
