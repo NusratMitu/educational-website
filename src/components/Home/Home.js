@@ -24,7 +24,7 @@ const Home = () => {
       {/* programs section */}
       <Row xs={2} md={3} className="g-3 w-100">
         {
-          courses.slice(0,3).map(course =><Courses key={course.id} course = {course}></Courses>
+          courses.slice(0,4).map(course =><Courses key={course.id} course = {course}></Courses>
           )
         }
       </Row>
