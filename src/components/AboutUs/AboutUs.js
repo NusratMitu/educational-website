@@ -11,6 +11,7 @@ const AboutUs = () => {
                 <p>Our mission is to train the world’s workforce in the careers of the future. We partner with leading technology companies to learn how technology is transforming industries, and teach the critical tech skills that companies are looking for in their workforce. With our powerful and flexible digital education platform, even the busiest learners can prepare themselves to take on the most in-demand tech roles.</p>
             </div>
             <div>
+              {/* react bootstrap form */}
                 <h2> Contact us</h2>
             <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
